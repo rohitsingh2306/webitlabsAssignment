@@ -1,0 +1,2136 @@
+@import url('https://fonts.cdnfonts.com/css/gilroy-bold');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+    .box {
+        width: 100%;
+        height: 100%;
+
+    }
+
+    .first-page {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        width: 100%;
+        height: 100%;
+        /* UI Properties */
+        background: #00FF00 0% 0% no-repeat padding-box;
+        border-radius: 0px 0px 0px 400px;
+        opacity: 1;
+
+    }
+
+    .first-logo {
+        position: absolute;
+        top: 22%;
+        left: 9%;
+        width: 930px;
+        height: 620px;
+        /* UI Properties */
+
+        opacity: 1;
+
+    }
+
+    .nav-bar {
+        position: absolute;
+        font: normal normal 600 18px/22px 'Gilroy';
+        font-family: 'Gilroy-Medium', sans-serif;
+        letter-spacing: 0px;
+        color: #000000;
+        opacity: 1;
+        top: 10%;
+        left: 21%;
+        width: 449px;
+        height: 22px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .Heading-1 {
+        position: absolute;
+        top: 7%;
+        left: 6%;
+        width: 201px;
+        height: 76px;
+
+    }
+
+    .Heading-1-1 {
+        position: absolute;
+
+        top: 0px;
+        left: 0px;
+        width: 143px;
+        height: 50px;
+        /* UI Properties */
+        text-align: left;
+        font: normal normal 900 40px/30px Gilroy;
+        letter-spacing: 0px;
+        color: #000000;
+        text-transform: uppercase;
+        font-family: 'gilroy-heavy';
+
+    }
+
+    .Heading-1-2 {
+        position: absolute;
+        top: 41px;
+        left: 0px;
+        width: 118px;
+        height: 55px;
+        /* UI Properties */
+        text-align: left;
+        font: normal normal medium 30px/30px Gilroy;
+        letter-spacing: 4px;
+        color: #000000;
+        text-transform: uppercase;
+        font-family: 'gilroy-medium';
+        font-size: x-large;
+        transform: translate(0, -10%);
+    }
+
+    .first-button-1 {
+        position: absolute;
+        top: 7%;
+        right: 20%;
+        width: 209px;
+        height: 49px;
+        /* UI Properties */
+        background: #000000 0% 0% no-repeat padding-box;
+        box-shadow: 0px 4px 20px #00000029;
+        border-radius: 33px;
+        opacity: 1;
+    }
+
+    .first-button-1-text {
+
+
+        top: 191px;
+        left: 1374px;
+        width: 139px;
+        height: 22px;
+        /* UI Properties */
+        text-align: left;
+        font: normal normal 600 18px/22px Gilroy;
+        letter-spacing: 0px;
+        color: #FFFFFF;
+        opacity: 1;
+        font-family: 'gilroy-bold';
+        transform: translate(30%, 60%);
+    }
+
+    .first-button-2 {
+        position: absolute;
+        top: 7%;
+        right: 5%;
+        width: 209px;
+        height: 49px;
+        /* UI Properties */
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        box-shadow: 0px 4px 20px #00000029;
+        border-radius: 33px;
+        opacity: 1;
+    }
+
+    .first-button-2-text {
+        text-align: left;
+        font: normal normal 600 18px/22px Gilroy;
+        letter-spacing: 0px;
+        color: #000000;
+        opacity: 1;
+        font-family: 'gilroy-bold';
+        transform: translate(23%, 60%);
+    }
+
+    .first-content-1 {
+        position: absolute;
+        top: 40%;
+        left: 19%;
+        width: 1000px;
+        height: 270px;
+        text-align: left;
+        font: normal normal 900 90px/90px Gilroy;
+        letter-spacing: 0px;
+        color: #000000;
+        text-transform: uppercase;
+        opacity: 1;
+        font-family: 'gilroy-heavy';
+    }
+
+    .first-content-2 {
+        position: absolute;
+        top: 69%;
+        left: 19%;
+        width: 900px;
+        height: 49px;
+        /* UI Properties */
+        text-align: left;
+        font: normal normal bold 30px/60px Gilroy;
+        letter-spacing: 0px;
+        color: #000000;
+        opacity: 1;
+        font-family: 'gilroy-bold';
+        transform: translate(0%, -50%);
+    }
+
+
+    .box2 {
+        position: absolute;
+        top: 830px;
+        left: 0px;
+        width: 100%;
+        height: 1250px;
+        /* UI Properties */
+        background: #000000 0% 0% no-repeat padding-box;
+        opacity: 1;
+    }
+
+    .Heading-2 {
+        position: absolute;
+        top: 180px;
+        left: 35%;
+        width: 430px;
+        height: 135px;
+        /* UI Properties */
+        text-align: center;
+        font: normal normal 900 53px/53px Gilroy;
+        letter-spacing: 0px;
+        color: #00FF00;
+        text-transform: uppercase;
+        opacity: 1;
+        font-family: 'gilroy-heavy';
+    }
+
+    .Heading-2-small {
+        position: absolute;
+        top: 309px;
+        left: 38%;
+        width: 332px;
+        height: 19px;
+        text-align: center;
+        font: 14px Gilroy;
+        letter-spacing: 0px;
+        color: #FFFFFF;
+        opacity: 1;
+        font-family: 'gilroy-medium';
+        transform: translate(0%, -40%);
+    }
+
+    .logo-2-1 {
+        position: absolute;
+        top: 440px;
+        left: 10%;
+        width: 95px;
+        height: 95px;
+        opacity: 1;
+    }
+
+    .logo-2-7 {
+        position: absolute;
+        top: 440px;
+        left: 39%;
+        width: 95px;
+        height: 95px;
+
+    }
+
+    .logo-2-6 {
+        position: absolute;
+        top: 440px;
+        left: 70%;
+        width: 95px;
+        height: 95px;
+    }
+
+    .logo-2-8 {
+        position: absolute;
+        top: 620px;
+        left: 9%;
+        width: 190px;
+        height: 190px;
+    }
+
+    .logo-2-2 {
+        position: absolute;
+        top: 702px;
+        left: 39%;
+        width: 95px;
+        height: 95px;
+    }
+
+    .logo-2-5 {
+        position: absolute;
+        top: 690px;
+        left: 70%;
+        width: 130px;
+        height: 115px;
+    }
+
+    .logo-2-3 {
+        position: absolute;
+        top: 954px;
+        left: 9%;
+        width: 125px;
+        height: 125px;
+
+    }
+
+    .logo-2-4 {
+        position: absolute;
+        top: 954px;
+        left: 38%;
+        width: 125px;
+        height: 125px;
+
+    }
+
+    .logo-2-text1 {
+        position: absolute;
+        top: 455px;
+        left: 18.5%;
+        width: 238px;
+        height: 59px;
+        text-align: left;
+        font: normal normal 600 20px/30px Gilroy ☞;
+        letter-spacing: 0px;
+        color: #FFFFFF;
+        text-transform: uppercase;
+        opacity: 1;
+        font-family: 'gilroy-medium';
+    }
+
+    .logo-2-text2 {
+        position: absolute;
+        top: 455px;
+        left: 47%;
+        width: 221px;
+        height: 59px;
+        text-align: left;
+        font: normal normal 600 20px/30px Gilroy ☞;
+        letter-spacing: 0px;
+        color: #FFFFFF;
+        text-transform: uppercase;
+        opacity: 1;
+        font-family: 'gilroy-medium';
+    }
+
+    .logo-2-text3 {
+        position: absolute;
+        top: 455px;
+        left: 78%;
+        width: 219px;
+        height: 59px;
+        text-align: left;
+        font: normal normal 600 20px/30px Gilroy ☞;
+        letter-spacing: 0px;
+        color: #FFFFFF;
+        text-transform: uppercase;
+        opacity: 1;
+        font-family: 'gilroy-medium';
+    }
+
+    .logo-2-text4 {
+        position: absolute;
+        top: 720px;
+        left: 18.5%;
+        width: 179px;
+        height: 59px;
+        text-align: left;
+        font: normal normal 600 20px/30px Gilroy ☞;
+        letter-spacing: 0px;
+        color: #FFFFFF;
+        text-transform: uppercase;
+        opacity: 1;
+        font-family: 'gilroy-medium';
+    }
+
+    .logo-2-text5 {
+        position: absolute;
+        top: 720px;
+        left: 47%;
+        width: 193px;
+        height: 59px;
+        text-align: left;
+        font: normal normal 600 20px/30px Gilroy ☞;
+        letter-spacing: 0px;
+        color: #FFFFFF;
+        text-transform: uppercase;
+        opacity: 1;
+        font-family: 'gilroy-medium';
+    }
+
+    .logo-2-text6 {
+        position: absolute;
+        top: 720px;
+        left: 79.6%;
+        width: 174px;
+        height: 59px;
+        text-align: left;
+        font: normal normal 600 20px/30px Gilroy ☞;
+        letter-spacing: 0px;
+        color: #FFFFFF;
+        text-transform: uppercase;
+        opacity: 1;
+        font-family: 'gilroy-medium';
+
+    }
+
+    .logo-2-text7 {
+        position: absolute;
+        top: 985px;
+        left: 18.5%;
+        width: 257px;
+        height: 59px;
+        text-align: left;
+        font: normal normal 600 20px/30px Gilroy ☞;
+        letter-spacing: 0px;
+        color: #FFFFFF;
+        text-transform: uppercase;
+        opacity: 1;
+        font-family: 'gilroy-medium';
+    }
+
+    .logo-2-text8 {
+        position: absolute;
+        top: 985px;
+        left: 47%;
+        width: 128px;
+        height: 59px;
+        text-align: left;
+        font: normal normal 600 20px/30px Gilroy ☞;
+        letter-spacing: 0px;
+        color: #FFFFFF;
+        text-transform: uppercase;
+        opacity: 1;
+        font-family: 'gilroy-medium';
+    }
+
+
+    .box3 {
+        position: absolute;
+        top: 2077px;
+        left: 0%;
+        width: 100%;
+        height: 1224px;
+        background: #EDEDED 0% 0% no-repeat padding-box;
+        opacity: 1;
+    }
+
+    .Heading-3 {
+        position: absolute;
+        top: 132px;
+        left: 29%;
+        width: 676px;
+        height: 135px;
+        text-align: center;
+        font: normal normal 900 55px/60px Gilroy;
+        letter-spacing: 0px;
+        color: #09090A;
+        text-transform: uppercase;
+        opacity: 1;
+        font-family: 'gilroy-heavy';
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Heading-32 {
+        width: 680px;
+    }
+
+    .logo-3-1 {
+        position: absolute;
+        top: 372px;
+        left: 9%;
+        width: 120px;
+        height: 120px;
+    }
+
+    .logo-3-2 {
+        position: absolute;
+        top: 372px;
+        left: 40%;
+        width: 119px;
+        height: 119px;
+    }
+
+    .logo-3-3 {
+        position: absolute;
+        top: 372px;
+        left: 73%;
+        width: 118px;
+        height: 119px;
+    }
+
+    .logo-3-4 {
+        position: absolute;
+        top: 633px;
+        left: 9%;
+        width: 120px;
+        height: 120px;
+    }
+
+    .logo-3-5 {
+        position: absolute;
+        top: 633px;
+        left: 73%;
+        width: 120px;
+        height: 120px;
+    }
+
+    .logo-3-6 {
+        position: absolute;
+        top: 633px;
+        left: 40%;
+        width: 119px;
+        height: 120px;
+    }
+
+    .logo-3-7 {
+        position: absolute;
+        top: 895px;
+        left: 9%;
+        width: 120px;
+        height: 119px;
+    }
+
+    .logo-3-8 {
+        position: absolute;
+        top: 895px;
+        left: 40%;
+        width: 119px;
+        height: 119px;
+    }
+
+    .logo-3-9 {
+        position: absolute;
+        top: 895px;
+        left: 73%;
+        width: 118px;
+        height: 119px;
+    }
+
+    .logo-3-text1 {
+        position: absolute;
+        top: 398px;
+        left: 19%;
+        width: 180px;
+        height: 59px;
+        text-align: left;
+        font: normal normal 600 24px/30px Gilroy;
+        letter-spacing: 0px;
+        color: #000000;
+        text-transform: uppercase;
+        opacity: 1;
+        font-family: 'gilroy-medium';
+    }
+
+    .logo-3-text2 {
+        position: absolute;
+        top: 398px;
+        left: 49%;
+        width: 180px;
+        height: 59px;
+        text-align: left;
+        font: normal normal 600 24px/30px Gilroy;
+        letter-spacing: 0px;
+        color: #000000;
+        text-transform: uppercase;
+        opacity: 1;
+        font-family: 'gilroy-medium';
+    }
+
+    .logo-3-text3 {
+        position: absolute;
+        top: 398px;
+        left: 82%;
+        width: 180px;
+        height: 59px;
+        text-align: left;
+        font: normal normal 600 24px/30px Gilroy;
+        letter-spacing: 0px;
+        color: #000000;
+        text-transform: uppercase;
+        opacity: 1;
+        font-family: 'gilroy-medium';
+    }
+
+    .logo-3-text4 {
+        position: absolute;
+        top: 660px;
+        left: 19%;
+        width: 180px;
+        height: 59px;
+        text-align: left;
+        font: normal normal 600 24px/30px Gilroy;
+        letter-spacing: 0px;
+        color: #000000;
+        text-transform: uppercase;
+        opacity: 1;
+        font-family: 'gilroy-medium';
+    }
+
+    .logo-3-text5 {
+        position: absolute;
+        top: 660px;
+        left: 49%;
+        width: 180px;
+        height: 59px;
+        text-align: left;
+        font: normal normal 600 24px/30px Gilroy;
+        letter-spacing: 0px;
+        color: #000000;
+        text-transform: uppercase;
+        opacity: 1;
+        font-family: 'gilroy-medium';
+    }
+
+    .logo-3-text6 {
+        position: absolute;
+        top: 660px;
+        left: 82%;
+        width: 180px;
+        height: 59px;
+        text-align: left;
+        font: normal normal 600 24px/30px Gilroy;
+        letter-spacing: 0px;
+        color: #000000;
+        text-transform: uppercase;
+        opacity: 1;
+        font-family: 'gilroy-medium';
+    }
+
+    .logo-3-text7 {
+        position: absolute;
+        top: 921px;
+        left: 19%;
+        width: 180px;
+        height: 59px;
+        text-align: left;
+        font: normal normal 600 24px/30px Gilroy;
+        letter-spacing: 0px;
+        color: #000000;
+        text-transform: uppercase;
+        opacity: 1;
+        font-family: 'gilroy-medium';
+    }
+
+    .logo-3-text8 {
+        position: absolute;
+        top: 944px;
+        left: 49%;
+        width: 180px;
+        height: 59px;
+        text-align: left;
+        font: normal normal 600 24px/30px Gilroy;
+        letter-spacing: 0px;
+        color: #000000;
+        text-transform: uppercase;
+        opacity: 1;
+        font-family: 'gilroy-medium';
+    }
+
+    .logo-3-text9 {
+        position: absolute;
+        top: 944px;
+        left: 82%;
+        width: 180px;
+        height: 59px;
+        text-align: left;
+        font: normal normal 600 24px/30px Gilroy;
+        letter-spacing: 0px;
+        color: #000000;
+        text-transform: uppercase;
+        opacity: 1;
+        font-family: 'gilroy-medium';
+    }
+
+
+/* Media Query */
+
+
+@media (max-width:1400px) {
+    .first-button-1 {
+        position: absolute;
+        top: 7%;
+        right: 5%;
+        width: 200px;
+        height: 49px;
+        /* UI Properties */
+        background: #000000 0% 0% no-repeat padding-box;
+        box-shadow: 0px 4px 20px #00000029;
+        border-radius: 33px;
+        opacity: 1;
+    }
+
+    .first-button-2 {
+        position: absolute;
+        top: 17%;
+        right: 5%;
+        width: 200px;
+        height: 49px;
+        /* UI Properties */
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        box-shadow: 0px 4px 20px #00000029;
+        border-radius: 33px;
+        opacity: 1;
+    }
+}
+
+@media (max-width:1281px) {
+    .Heading-2 {
+        top: 120px;
+        left: 33%;
+    }
+
+    .Heading-2-small {
+        top: 240px;
+        left: 38%;
+    }
+
+    .first-logo {
+        top: 230px;
+    }
+
+    .box2 {
+        top: 850px;
+    }
+
+    .logo-2-1 {
+        position: absolute;
+        top: 370px;
+        left: 15%;
+
+    }
+
+    .logo-2-7 {
+        top: 370px;
+        left: 55%;
+
+    }
+
+    .logo-2-6 {
+        left: 15%;
+        top: 600px;
+    }
+
+    .logo-2-8 {
+        left: 55%;
+        top: 515px;
+    }
+
+    .logo-2-2 {
+        left: 15%;
+        top: 820px;
+    }
+
+    .logo-2-5 {
+        left: 55%;
+        top: 810px;
+    }
+
+    .logo-2-3 {
+        left: 15%;
+        top: 1035px;
+
+    }
+
+    .logo-2-4 {
+        left: 55%;
+        top: 1035px;
+
+    }
+
+    .logo-2-text1 {
+        top: 390px;
+        left: 28%;
+    }
+
+    .logo-2-text2 {
+        top: 390px;
+        left: 68%;
+    }
+
+    .logo-2-text3 {
+        top: 620px;
+        left: 28%;
+    }
+
+    .logo-2-text4 {
+        top: 620px;
+        left: 68%;
+    }
+
+    .logo-2-text5 {
+        top: 835px;
+        left: 28%;
+    }
+
+    .logo-2-text6 {
+        top: 835px;
+        left: 69%;
+
+    }
+
+    .logo-2-text7 {
+        top: 1065px;
+        left: 29%;
+
+    }
+
+    .logo-2-text8 {
+        top: 1065px;
+        left: 70%;
+    }
+
+
+    .Heading-3 {
+        left: 22%;
+        font-size: 50px;
+    }
+
+    .logo-3-1 {
+        left: 15%;
+        top: 320px;
+        width: 110px;
+        height: 110px;
+    }
+
+    .logo-3-2 {
+        left: 60%;
+        top: 320px;
+        width: 110px;
+        height: 110px;
+    }
+
+    .logo-3-3 {
+        left: 15%;
+        top: 500px;
+        width: 110px;
+        height: 110px;
+    }
+
+    .logo-3-4 {
+        left: 60%;
+        top: 500px;
+        width: 110px;
+        height: 110px;
+    }
+
+    .logo-3-5 {
+        left: 15%;
+        top: 700px;
+        width: 110px;
+        height: 110px;
+    }
+
+    .logo-3-6 {
+        left: 60%;
+        top: 700px;
+        width: 110px;
+        height: 110px;
+    }
+
+    .logo-3-7 {
+        left: 15%;
+        top: 900px;
+        width: 110px;
+        height: 110px;
+    }
+
+    .logo-3-8 {
+        left: 60%;
+
+        top: 900px;
+        width: 110px;
+        height: 110px;
+    }
+
+    .logo-3-9 {
+        left: 15%;
+        top: 1110px;
+        width: 110px;
+        height: 110px;
+    }
+
+    .logo-3-text1 {
+        left: 29%;
+        top: 340px;
+    }
+
+    .logo-3-text2 {
+        left: 73%;
+        top: 340px;
+    }
+
+    .logo-3-text3 {
+        left: 29%;
+        top: 520px;
+    }
+
+    .logo-3-text4 {
+        left: 73%;
+        top: 520px;
+    }
+
+    .logo-3-text6 {
+        left: 29%;
+        top: 720px;
+    }
+
+    .logo-3-text5 {
+        left: 73%;
+        top: 720px;
+    }
+
+    .logo-3-text7 {
+        left: 29%;
+        top: 920px;
+    }
+
+    .logo-3-text8 {
+        left: 73%;
+        top: 940px;
+    }
+
+    .logo-3-text9 {
+        left: 29%;
+        top: 1150px;
+    }
+
+}
+
+
+
+@media (max-width:1100px) {
+    .first-content-1 {
+        font-size: 50px;
+        width: 600px;
+        line-height: 50px;
+        left: 10%;
+        top: 400px;
+    }
+
+    .first-content-2 {
+        left: 10%;
+        top: 520px;
+        width: 300px;
+        font-size: 15px;
+        line-height: 20px;
+        margin-top: 10px;
+
+    }
+
+    .first-button-1 {
+        left: 5%;
+        top: 29%;
+
+    }
+
+    .first-button-2 {
+        left: 5%;
+        top: 38%;
+    }
+
+    .nav-bar {
+        display: flex;
+        flex-direction: column;
+        left: 80%;
+        justify-content: space-between;
+        line-height: 40px;
+        width: auto;
+    }
+
+    .first-logo {
+        top: 400px;
+        left: 5%;
+        height: 380px;
+        width: 600px;
+
+    }
+
+    .first-page {
+        height: 100%;
+        border-radius: 0px 0px 0px 200px;
+
+    }
+
+    .Heading-1-1 {
+        font-size: 50px;
+
+    }
+
+    .Heading-1-2 {
+        font-size: 35px;
+    }
+
+    .first-button-1-text {
+
+
+
+        transform: translate(25%, 60%);
+    }
+
+    .first-button-2-text {
+
+
+
+        transform: translate(20%, 60%);
+    }
+
+    .box2 {
+        top: 110%;
+        height:1300px;
+    }
+
+    .box3 {
+        top: 320%;
+        height: 1300px;
+    }
+
+    .Heading-2 {
+        top: 120px;
+        left: 29%;
+    }
+
+    .Heading-2-small {
+        top: 240px;
+        left: 34%;
+    }
+
+    .Heading-3 {
+        left: 18%;
+        font-size: 50px;
+    }
+
+}
+
+@media (max-width:900px) {
+    .Heading-2 {
+        top: 120px;
+        left: 25%;
+    }
+
+    .Heading-2-small {
+        top: 240px;
+        left: 31%;
+    }
+
+    .Heading-3 {
+        left: 14%;
+        font-size: 50px;
+    }
+}
+
+@media (max-width:850px) {
+    .first-button-1 {
+        left: 5%;
+        top: 20%;
+
+    }
+
+    .nav-bar {
+        width: auto;
+    }
+
+    .first-page {
+        border-radius: 0 0 0 300px;
+        height: 1000px;
+    }
+
+    .box2 {
+        top: 1100px;
+        height: 1200px;
+    }
+
+    .box3 {
+        top: 2300px;
+        height: 1250px;
+    }
+
+    .first-content-1 {
+        top: 600px;
+    }
+
+    .first-content-2 {
+        top: 720px;
+    }
+
+    .first-logo {
+        top: 540px;
+        height: 500px;
+        left: 10%;
+    }
+
+    .first-button-2 {
+        left: 5%;
+        top: 26%;
+    }
+
+    .logo-2-1 {
+        position: absolute;
+        top: 370px;
+        left: 15%;
+        width: 80px;
+        height: 80px;
+
+    }
+
+    .logo-2-7 {
+        width: 80px;
+        height: 80px;
+
+    }
+
+    .logo-2-6 {
+        width: 80px;
+        height: 80px;
+    }
+
+    .logo-2-8 {
+        top: 540px;
+        width: 140px;
+        height: 140px;
+    }
+
+    .logo-2-2 {
+        width: 80px;
+        height: 80px;
+    }
+
+    .logo-2-5 {
+        width: 100px;
+        height: 100px;
+    }
+
+    .logo-2-3 {
+        width: 100px;
+        height: 100px;
+        left: 14%;
+
+    }
+
+    .logo-2-4 {
+        width: 110px;
+        height: 110px;
+
+    }
+
+    .logo-2-text1 {
+        font-size: 14px;
+        top: 365px;
+        width: 100px;
+    }
+
+    .logo-2-text2 {
+        font-size: 14px;
+        top: 365px;
+        width: 100px;
+    }
+
+    .logo-2-text3 {
+        font-size: 14px;
+        top: 595px;
+        width: 100px;
+    }
+
+    .logo-2-text4 {
+        font-size: 14px;
+        top: 610px;
+        width: 100px;
+    }
+
+    .logo-2-text5 {
+        font-size: 14px;
+
+        width: 100px;
+    }
+
+    .logo-2-text6 {
+        font-size: 14px;
+
+        width: 100px;
+
+    }
+
+    .logo-2-text7 {
+        font-size: 13px;
+        top: 1030px;
+        width: 100px;
+
+    }
+
+    .logo-2-text8 {
+        font-size: 14px;
+
+        width: 100px;
+    }
+
+    .Heading-3 {
+        left: 10%;
+        font-size: 50px;
+    }
+
+    .logo-3-1 {
+
+        width: 90px;
+        height: 90px;
+    }
+
+    .logo-3-2 {
+        width: 90px;
+        height: 90px;
+    }
+
+    .logo-3-3 {
+        width: 90px;
+        height: 90px;
+    }
+
+    .logo-3-4 {
+        width: 90px;
+        height: 90px;
+    }
+
+    .logo-3-5 {
+        width: 90px;
+        height: 90px;
+    }
+
+    .logo-3-6 {
+        width: 90px;
+        height: 90px;
+    }
+
+    .logo-3-7 {
+        width: 90px;
+        height: 90px;
+    }
+
+    .logo-3-8 {
+        width: 90px;
+        height: 90px;
+    }
+
+    .logo-3-9 {
+        width: 90px;
+        height: 90px;
+    }
+
+    .logo-3-text1 {
+
+        font-size: 18px;
+    }
+
+    .logo-3-text2 {
+        font-size: 18px;
+    }
+
+    .logo-3-text3 {
+        font-size: 18px;
+    }
+
+    .logo-3-text4 {
+        font-size: 18px;
+    }
+
+    .logo-3-text6 {
+        font-size: 18px;
+    }
+
+    .logo-3-text5 {
+        font-size: 18px;
+    }
+
+    .logo-3-text7 {
+        font-size: 18px;
+        width: 100px;
+    }
+
+    .logo-3-text8 {
+        font-size: 18px;
+    }
+
+    .logo-3-text9 {
+        font-size: 18px;
+    }
+}
+
+@media (max-width:800px) {
+    .Heading-2 {
+
+        left: 20%;
+    }
+
+    .Heading-2-small {
+        top: 240px;
+        left: 27%;
+    }
+
+    .Heading-3 {
+        left: 10%;
+        font-size: 40px;
+    }
+}
+
+@media (max-width:700px) {
+    .Heading-3 {
+        left: 1%;
+    }
+}
+
+@media (max-width:600px) {
+    .Heading-2 {
+
+        left: 15%;
+        font-size: 30px;
+        line-height: 29px;
+        top: 50px;
+    }
+
+    .Heading-2-small {
+        top: 120px;
+        left: 23%;
+    }
+
+    .Heading-3 {
+        left: 0%;
+        font-size: 30px;
+        top: 40px;
+
+    }
+
+    .Heading-31 {
+        position: absolute;
+        left: 22%;
+    }
+
+    .Heading-32 {
+        position: relative;
+        top: 30px;
+        left: -60px;
+    }
+
+    .logo-2-1 {
+        position: absolute;
+        top: 200px;
+        left: 33%;
+        width: 75px;
+        height: 75px;
+
+    }
+
+    .logo-2-7 {
+        top: 320px;
+        left: 33%;
+        width: 75px;
+        height: 75px;
+
+    }
+
+    .logo-2-6 {
+        top: 447px;
+        left: 33%;
+        width: 75px;
+        height: 75px;
+    }
+
+    .logo-2-8 {
+        top: 520px;
+        left: 33%;
+        width: 120px;
+        height: 120px;
+    }
+
+    .logo-2-2 {
+        top: 710px;
+        left: 33%;
+        width: 70px;
+        height: 70px;
+    }
+
+    .logo-2-5 {
+        top: 840px;
+        left: 33%;
+        width: 80px;
+        height: 80px;
+    }
+
+    .logo-2-3 {
+        top: 970px;
+        left: 33%;
+        width: 90px;
+        height: 90px;
+
+    }
+
+    .logo-2-4 {
+        top: 1100px;
+        left: 33%;
+        width: 90px;
+        height: 90px;
+
+    }
+
+    .logo-2-text1 {
+        left: 49%;
+        top: 210px;
+        font-size: 12px;
+
+
+    }
+
+    .logo-2-text2 {
+        left: 49%;
+        top: 330px;
+        font-size: 12px;
+
+
+    }
+
+    .logo-2-text3 {
+        left: 49%;
+        top: 440px;
+        font-size: 12px;
+    }
+
+    .logo-2-text4 {
+        left: 49%;
+        top: 580px;
+        font-size: 12px;
+    }
+
+    .logo-2-text5 {
+        left: 49%;
+        top: 715px;
+        font-size: 12px;
+    }
+
+    .logo-2-text6 {
+        left: 49%;
+        top: 850px;
+        font-size: 12px;
+
+    }
+
+    .logo-2-text7 {
+        left: 50%;
+        top: 970px;
+        font-size: 12px;
+
+    }
+
+    .logo-2-text8 {
+        left: 50%;
+        top: 1130px;
+        font-size: 12px;
+    }
+
+    .logo-3-1 {
+
+        width: 80px;
+        height: 80px;
+        top: 150px;
+        left: 30%;
+    }
+
+    .logo-3-2 {
+        width: 80px;
+        height: 80px;
+        top: 270px;
+        left: 32%;
+    }
+
+    .logo-3-3 {
+        width: 80px;
+        height: 80px;
+        top: 390px;
+        left: 32%;
+    }
+
+    .logo-3-4 {
+        width: 80px;
+        height: 80px;
+        top: 510px;
+        left: 32%;
+    }
+
+    .logo-3-5 {
+        width: 80px;
+        height: 80px;
+        top: 625px;
+        left: 32%;
+    }
+
+    .logo-3-6 {
+        width: 80px;
+        height: 80px;
+        top: 740px;
+        left: 32%;
+    }
+
+    .logo-3-7 {
+        width: 80px;
+        height: 80px;
+        top: 855px;
+        left: 32%;
+    }
+
+    .logo-3-8 {
+        width: 80px;
+        height: 80px;
+        top: 980px;
+        left: 32%;
+    }
+
+    .logo-3-9 {
+        width: 80px;
+        height: 80px;
+        top: 1110px;
+        left: 32%;
+    }
+
+    .logo-3-text1 {
+        left: 48%;
+        top: 162px;
+        font-size: 16px;
+    }
+
+    .logo-3-text2 {
+        left: 48%;
+        top: 277px;
+        font-size: 16px;
+    }
+
+    .logo-3-text3 {
+        left: 48%;
+        top: 397px;
+        font-size: 16px;
+    }
+
+    .logo-3-text4 {
+        left: 48%;
+        top: 527px;
+        font-size: 16px;
+    }
+
+    .logo-3-text6 {
+        left: 48%;
+        top: 647px;
+        font-size: 16px;
+    }
+
+    .logo-3-text5 {
+        left: 48%;
+        top: 757px;
+        font-size: 16px;
+    }
+
+    .logo-3-text7 {
+        left: 48%;
+        top: 867px;
+        font-size: 16px;
+    }
+
+    .logo-3-text8 {
+        left: 48%;
+        top: 1007px;
+        font-size: 16px;
+    }
+
+    .logo-3-text9 {
+        left: 48%;
+        top: 1127px;
+        font-size: 16px;
+    }
+}
+
+
+@media (max-width:570px) {
+    .first-content-1 {
+        font-size: 40px;
+
+        width: 300px;
+        line-height: 40px;
+        left: 10%;
+        top: 440px;
+    }
+
+    .first-content-2 {
+        left: 10%;
+        top: 580px;
+        width: 300px;
+        font-size: 15px;
+        line-height: 15px;
+        margin-top: 10px;
+
+    }
+
+    .first-button-1 {
+        width: 150px;
+        height: 50px;
+
+    }
+
+    .first-button-2 {
+        width: 150px;
+        height: 50px;
+    }
+
+    .nav-bar {
+        display: flex;
+        flex-direction: column;
+        left: 75%;
+        justify-content: space-between;
+        line-height: 40px;
+        width: auto;
+        top: 40px;
+    }
+
+    .first-logo {
+        top: 350px;
+        left: 5%;
+        height: 400px;
+        width: 400px;
+
+    }
+
+    .first-page {
+
+        border-radius: 0px 0px 0px 200px;
+
+    }
+
+    .Heading-1-1 {
+        font-size: 50px;
+
+    }
+
+    .Heading-1-2 {
+        font-size: 35px;
+    }
+
+    .first-button-1-text {
+
+        font-size: 15px;
+
+        transform: translate(13%, 60%);
+    }
+
+    .first-button-2-text {
+
+
+
+        font-size: 15px;
+
+        transform: translate(17%, 60%);
+    }
+}
+
+@media (max-width:570px) {
+    .Heading-2 {
+
+        left: 8%;
+        font-size: 30px;
+        line-height: 29px;
+        top: 50px;
+    }
+
+    .Heading-2-small {
+        top: 120px;
+        left: 17%;
+    }
+
+    .Heading-3 {
+        left: 0%;
+        font-size: 30px;
+        top: 40px;
+
+    }
+
+    .Heading-31 {
+        position: absolute;
+        left: 16%;
+    }
+
+    .Heading-32 {
+        position: relative;
+        top: 30px;
+        left: -100px;
+    }
+}
+
+@media (max-width:420px) {
+    .first-button-1 {
+        top: 25%;
+        width: 30%;
+    }
+
+    .first-button-2 {
+        top: 32%;
+        width: 30%;
+    }
+
+    .first-button-1-text {
+        font-size: 13px;
+        transform: translate(7.5%, 50%);
+    }
+
+    .first-button-2-text {
+        font-size: 13px;
+        transform: translate(11%, 50%);
+    }
+
+    .nav-bar {
+        left: 70%;
+        font-size: 15px;
+    }
+
+    .first-logo {
+        width: 70%;
+        left: 15%;
+        top: 68%;
+        height: 300px;
+    }
+
+    .first-page {
+        border-radius: 0 0 0 150px;
+        height: 100%;
+    }
+
+    .first-content-1 {
+        top: 70%;
+    }
+
+    .first-content-2 {
+        top: 86%;
+    }
+
+    .box2 {
+        top: 105%;
+    }
+
+    .box3 {
+        top: 248%;
+    }
+
+    .Heading-2 {
+        top: 3%;
+        font-size: 25px;
+        left: 26%;
+        width: 200px;
+    }
+
+    .Heading-2-small {
+        top: 11%;
+        left: 10%;
+    }
+
+    .logo-2-1 {
+        left: 30%;
+
+    }
+
+    .logo-2-7 {
+        left: 30%;
+
+    }
+
+    .logo-2-6 {
+        left: 30%;
+    }
+
+    .logo-2-8 {
+        left: 30%;
+    }
+
+    .logo-2-2 {
+        left: 30%;
+    }
+
+    .logo-2-5 {
+        left: 30%;
+    }
+
+    .logo-2-3 {
+        left: 30%;
+
+    }
+
+    .logo-2-4 {
+        left: 30%;
+
+    }
+
+    .logo-2-text1 {
+        left: 51%;
+
+
+    }
+
+    .logo-2-text2 {
+        left: 51%;
+
+
+    }
+
+    .logo-2-text3 {
+        left: 51%;
+    }
+
+    .logo-2-text4 {
+        left: 51%;
+    }
+
+    .logo-2-text5 {
+        left: 51%;
+    }
+
+    .logo-2-text6 {
+        left: 51%;
+
+    }
+
+    .logo-2-text7 {
+        left: 51%;
+
+    }
+
+    .logo-2-text8 {
+        left: 51%;
+    }
+
+    .logo-3-1 {
+
+        left: 25%;
+    }
+
+    .logo-3-2 {
+        left: 25%;
+    }
+
+    .logo-3-3 {
+        left: 25%;
+    }
+
+    .logo-3-4 {
+        left: 25%;
+    }
+
+    .logo-3-5 {
+        left: 25%;
+    }
+
+    .logo-3-6 {
+        left: 25%;
+    }
+
+    .logo-3-7 {
+        left: 25%;
+    }
+
+    .logo-3-8 {
+        left: 25%;
+    }
+
+    .logo-3-9 {
+        left: 25%;
+    }
+
+    .Heading-3 {
+        font-size: 25px;
+        left: 0%;
+        width: auto;
+    }
+
+    .Heading-32 {
+        transform: translate(-4%, 0%);
+        width: auto;
+    }
+}
+
+
+@media (max-width:420px) {
+    .first-button-1 {
+        top: 25%;
+        width: 30%;
+    }
+
+    .first-button-2 {
+        top: 34%;
+        width: 30%;
+    }
+
+    .first-button-1-text {
+        font-size: 13px;
+        transform: translate(7.5%, 60%);
+    }
+
+    .first-button-2-text {
+        font-size: 13px;
+        transform: translate(11%, 70%);
+    }
+
+    .first-content-2 {
+        top: 90%;
+    }
+
+    .first-logo {
+        height: 230px;
+    }
+
+    .Heading-31 {
+        left: 24%;
+    }
+
+    .Heading-32 {
+        left: 21%;
+    }
+
+    .box3 {
+        top: 253%;
+    }
+}
+
+@media (max-width:300px) {
+    .first-content-1{
+        width: auto;
+        font-size: 30px;
+        line-height: 24px;
+    }
+    .first-content-2{
+        top: 85%;
+        font-size: 14px;
+    }
+    .first-button-1-text{
+        font-size: 9px;
+    }
+    .first-button-2-text{
+        font-size: 10px;
+    }
+    .Heading-1-1{
+        font-size: 28px;
+    }
+    .Heading-1-2{
+        font-size: 22px;
+        padding-bottom: 12px;
+    }
+    .nav-bar{
+        font-size: 10px;
+    }
+    .Heading-2{
+        font-size: 20px;
+        left: 15%;
+    }
+    .Heading-2-small{
+        font-size: 10px;
+        top: 9%;
+        left: 13%;
+        width: auto;
+    }
+    .box3{
+        top: 289.5%;
+    }
+    .logo-2-1 {
+        left: 25%;
+        width: 60px;
+        height: 60px;
+
+    }
+
+    .logo-2-7 {
+        left: 25%;
+        width: 60px;
+        height: 60px;
+
+    }
+
+    .logo-2-6 {
+        left: 25%;
+        width: 60px;
+        height: 60px;
+    }
+
+    .logo-2-8 {
+        left: 25%;
+        top: 47%;
+        width: 60px;
+        height: 60px;
+    }
+
+    .logo-2-2 {
+        left: 25%;
+        width: 60px;
+        height: 60px;
+    }
+
+    .logo-2-5 {
+        left: 25%;
+        width: 60px;
+        height: 60px;
+    }
+
+    .logo-2-3 {
+        left: 25%;
+        width: 60px;
+        height: 60px;
+
+    }
+
+    .logo-2-4 {
+        left: 25%;
+        width: 60px;
+        height: 60px;
+    }
+
+    .logo-2-text1 {
+        left: 51%;
+
+
+    }
+
+    .logo-2-text2 {
+        left: 51%;
+
+
+    }
+
+    .logo-2-text3 {
+        left: 51%;
+    }
+
+    .logo-2-text4 {
+        left: 51%;
+    }
+
+    .logo-2-text5 {
+        left: 51%;
+    }
+
+    .logo-2-text6 {
+        left: 51%;
+
+    }
+
+    .logo-2-text7 {
+        left: 51%;
+
+    }
+
+    .logo-2-text8 {
+        left: 51%;
+    }
+    .Heading-31{
+        left: 0%;
+        font-size: 20px;
+        width: 280px;
+    }
+    .Heading-32{
+        font-size: 20px;
+        left: 15%;
+    }
+    .logo-3-1 {
+        width: 65px;
+        height: 65px;
+        left: 20%;
+    }
+
+    .logo-3-2 {
+        width: 65px;
+        height: 65px;
+        left: 20%;
+    }
+
+    .logo-3-3 {
+        width: 65px;
+        height: 65px;
+        left: 20%;
+    }
+
+    .logo-3-4 {
+        width: 65px;
+        height: 65px;
+        left: 20%;
+    }
+
+    .logo-3-5 {
+        width: 65px;
+        height: 65px;
+        left: 20%;
+    }
+
+    .logo-3-6 {
+        width: 65px;
+        height: 65px;
+        left: 20%;
+    }
+
+    .logo-3-7 {
+        width: 65px;
+        height: 65px;
+        left: 20%;
+    }
+
+    .logo-3-8 {
+        width: 65px;
+        height: 65px;
+        left: 20%;
+    }
+
+    .logo-3-9 {
+        width: 65px;
+        height: 65px;
+        left: 20%;
+    }
+    .logo-3-text1 {
+
+        font-size: 15px;
+        width: 100px;
+    }
+
+    .logo-3-text2 {
+        font-size: 15px;
+        width: 100px;
+    }
+
+    .logo-3-text3 {
+        font-size: 15px;
+        width: 100px;
+    }
+
+    .logo-3-text4 {
+        font-size: 15px;
+        width: 100px;
+    }
+
+    .logo-3-text6 {
+        font-size: 15px;
+        width: 100px;
+    }
+
+    .logo-3-text5 {
+        font-size: 15px;
+        width: 100px;
+    }
+
+    .logo-3-text7 {
+        font-size: 15px;
+        width: 100px;
+    }
+
+    .logo-3-text8 {
+        font-size: 15px;
+        width: 100px;
+    }
+
+    .logo-3-text9 {
+        font-size: 15px;
+        width: 100px;
+    }
+}
